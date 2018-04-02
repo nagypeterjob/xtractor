@@ -1,3 +1,8 @@
 __pycache__
 .DS_Store
 .ipynb_checkpoints/
+LICENSE.txt
+setup.py
+setup.cfg
+MANIFEST
+dist/
