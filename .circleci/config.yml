@@ -1,0 +1,13 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:3.6.2
+    steps:
+      - checkout
+      - run:
+          command: |
+            pip install -r requirements/dev.txt
+      - run:
+          command: |
+           - python -m unittest TopicExtractorTest.py
