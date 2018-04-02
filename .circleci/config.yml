@@ -10,4 +10,5 @@ jobs:
             sudo pip install -r requirements.txt
       - run:
           command: |
+           cd xtractor
            python -m unittest TopicExtractorTest.py
